@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wid=device=width, initial-scale=1.0">
+    <title>Project committed</title>
+    <link rel="stylesheet" href="pr.css">
+    <link rel="stylesheet" href="percentage.css">
+</html>
+
+<body>
+    <div class="container">
+        <h1>Thats the topic of this webpage</h1>
+    </div>
+    <div class="container2">
+        <p class="center">Name of the competition</p>
+
+    </div>    
+    <div class="container2">
+        <h1 class="center">LEFT</h1>
+        <h1 class="center">VS</h1>
+        <h1 class="center">right</h1>
+    </div>
+    <div class="container2">
+        <p id="demo" class="center"></p>
+    </div>
+    <div class="row">
+        <img class="center" src="pr.png"  width="100">
+        <img class="center" src="pr.png"  width="100">
+   </div>
+    <form action="/url" method="GET">
+    <div class="row">
+        <input  class="column" type="text" name="username" minlength="3" required>
+        <input  class="column" type="text" name="username" minlength="3" required>
+    </div>
+    </form>
+
+    <div class="row">
+        <button id="left" class="center" style="font-family:monospace">confirm left side </button>
+        <button id="right" class="center" style="font-family:monospace">confirm right side</button>
+    </div>
+
+    <script src="pr.js" type="text/javascript"></script>
+
+
+
+    <p>testing:<span id="testing">~</span> </p>
+    <p>testing:<span id="testing1">~</span> </p>
+    <p>testing:<span id="testing2">~</span> </p>
+    <p>testing:<span id="testing3">~</span> </p>
+    <p>testing:<span id="testing4">~</span> </p>
+    <p>testing:<span id="testing5">~</span> </p>
+
+    <div id="percentageid" class="c100 p60.6 blue">
+        <span id="percentage">60%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+    </div>
+
+</body>
+<body>
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("navbar/navBar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+    
+</body>
